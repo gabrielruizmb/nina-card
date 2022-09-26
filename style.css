@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("background.jpg");
+}
+
+.card {
+  background-color: rgba(36, 36, 36, 0.685);
+  margin: 40px;
+  padding: 10px;
+}
+
+.ninaimage {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px 30px 30px;
+}
+
+.ninainfo {
+  display: flex;
+  justify-content: center;
+}
+
+.ninainfo ul{
+  color: orange;
+  font-family: cursive;
+  list-style: none;
+}
+
+.favoritethings {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .favoritethings {
+    display: block;
+  }
+}
+
+.favoritethings ul{
+  color: orange;
+  font-family: cursive;
+  list-style: none;
+}
